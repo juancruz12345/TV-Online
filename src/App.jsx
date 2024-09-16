@@ -16,11 +16,12 @@ function App() {
   return (
     <>
     <Routes>
-    
-      <Route exact path='/:categoria' element={<Home/>}></Route>
-      <Route exact path='/canales' element={<Home/>}></Route>
-      <Route exact path='/' element={<Home/>}></Route>
-      <Route exact path='/canales/:nombre' element={<VerCanal/>}></Route>
+      <Route  path='/' element={<Home/>}></Route>
+      <Route  path='/:categoria' element={<Home/>}></Route>
+      <Route  path='/canales' element={<Home/>}></Route>
+     
+      <Route  path='/canales/:nombre' element={<VerCanal/>}></Route>
+      
       
       
       
