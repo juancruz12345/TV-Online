@@ -11,7 +11,7 @@ function App() {
 
   
 
-    /*<Route path='/plant/:id' element={<Detalle />} />*/ 
+    
 
   return (
     <>
