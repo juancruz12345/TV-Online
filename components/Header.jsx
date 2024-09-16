@@ -6,7 +6,7 @@ import './Header.css'
 import { IconMoon, IconSun, IconSearch } from '@tabler/icons-react';
 import { useContext, useState } from 'react';
 import { ThemeContext } from '../context/channel';
-import logo from 'C:/Users/Instalacion/My project/PROYECTOS/tv-online/tv-online/public/tv-television-channel-icon-logo-260nw-1699488001(1).png'
+import logo from '../public/tv-television-channel-icon-logo-260nw-1699488001(1).png'
 import { canales } from '../hooks/canales';
 import { ToastComponent } from './ToastComponent';
 
