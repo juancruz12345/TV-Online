@@ -4,6 +4,16 @@
         "source": "/(.*)", 
         "destination": "/index.html"
       }
+    ],
+    "routes": [
+      {
+        "src": "/categorias/(.*)", 
+        "dest": "/index.html"
+      },
+      {
+        "src": "/canales/(.*)", 
+        "dest": "/index.html"
+      }
     ]
   }
   
