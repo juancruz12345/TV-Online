@@ -9,12 +9,14 @@ import { Loading } from '../components/Loading.jsx'
 
 createRoot(document.getElementById('root')).render(
   
-    <BrowserRouter>
+  
        <ThemeProvider>
        <Suspense fallback={<Loading />}>
+        <BrowserRouter>
         <App></App>
+        </BrowserRouter>
         </Suspense>
        </ThemeProvider>
-    </BrowserRouter>
+  
   
 )
