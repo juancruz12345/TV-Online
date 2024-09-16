@@ -1,0 +1,50 @@
+.nav{
+    width: 100%;
+    margin-bottom: 180px;
+    position: sticky;
+    top:0px;
+    z-index: 10;
+    max-height: 10vh;
+}
+#navbar{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.logo-img{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    width: 8vw;
+    height: 10vh;
+}
+
+.btn-theme{
+    border-radius: 99999px;
+}
+
+.form-search{
+    display: flex;
+}
+
+.toast-component{
+    display: flex;
+   margin: 0 auto;
+
+    
+}
+.toast-div{
+    margin: 0 auto;
+    max-height: 2vh;
+}
+
+
+[data-bs-theme=dark]{
+
+    
+}
+
+[data-bs-theme=light]{
+    
+}
+
